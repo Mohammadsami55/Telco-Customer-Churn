@@ -1,20 +1,34 @@
 # Telco-Customer-Churn
-Telco Customer Churn Analysis – Tableau Project
- ***Project Objectives***
 
-Understand customer demographics and service usage
+📊 Telco Customer Churn Analysis (Tableau)
+📌 Project Overview
 
-Analyze churn patterns based on tenure, contract type, and charges
+This project focuses on analyzing customer churn using the Telco Customer Churn dataset.
+The main goal is to understand why customers leave the service and identify key factors that influence churn using data visualization in Tableau.
 
-Create meaningful visualizations using Tableau
+🎯 Objective
 
-Present insights through an interactive dashboard
+To explore and understand customer data
 
-***important Columns:***
+To identify churn patterns using visual analytics
+
+To help businesses improve customer retention strategies
+
+🗂 Dataset Description
+
+Dataset Name: Telco Customer Churn
+
+Format: CSV
+
+Rows: Each row represents one customer
+
+Target Column: Churn (Yes / No)
+
+Key Columns:
 
 Customer Info: gender, SeniorCitizen, Partner, Dependents
 
-Account Details: tenure, Contract, PaymentMethod, PaperlessBilling
+Account Info: tenure, Contract, PaymentMethod
 
 Services: InternetService, OnlineSecurity, TechSupport, StreamingTV
 
@@ -22,42 +36,58 @@ Billing: MonthlyCharges, TotalCharges
 
 Churn: Indicates whether the customer left the company
 
-***Visualizations Created***
+🧹 Data Cleaning (Performed in Tableau)
 
-The following visualizations were built in Tableau:
+The following data cleaning steps were applied:
 
-1️⃣ Churn Distribution
+Corrected data types for numeric fields
 
-Shows the count of customers who churned vs retained
+Handled missing values in TotalCharges (replaced with 0 for zero-tenure customers)
 
-Helps understand overall churn rate
+Removed inconsistencies in categorical values
 
-2️⃣ Churn by Tenure Bin 
+Created Tenure Bins for better analysis
 
-Displays churn across different customer lifespan groups
+Verified uniqueness of customer records
 
-Identifies that early-tenure customers churn the most
+📊 Visualizations Created
 
-3️⃣ Churn by Contract Type
+The following visualizations were developed using Tableau:
 
-Compares churn for Month-to-Month, One-Year, and Two-Year contracts
+Churn Distribution – Customers who stayed vs left
 
-Month-to-month customers show the highest churn
+Churn by Tenure Bin – Identifies early churn customers
 
-4️⃣ Churn vs Monthly Charges
+Churn by Contract Type – Month-to-month vs long-term contracts
 
-Analyzes the impact of billing on churn
+Churn vs Monthly Charges – Impact of billing on churn
 
-Higher monthly charges are associated with higher churn
+Radial (Donut) Chart – Churn proportion visualization
 
-5️⃣ Radial (Donut) Chart – Churn Proportion
+Dashboard – Combined view of key churn insights
 
-Visually represents the proportion of churned and retained customers
+🔍 Key Insights
 
-Used for quick, high-level understanding
+Customers with low tenure (0–12 months) have the highest churn
 
-6️⃣ Interactive Dashboard
+Month-to-month contracts show significantly higher churn
 
-Combines multiple visualizations into a single view
+Higher monthly charges increase churn probability
 
-Includes filters for better analysis and storytelling
+Customers without online security or tech support are more likely to churn
+
+🛠 Tools & Technologies
+
+Tableau Desktop – Data visualization & dashboard creation
+
+CSV Dataset – Data source
+
+GitHub – Project hosting and version control
+
+📁 Project Files
+
+Telco-Customer-Churn.csv – Dataset
+
+new project 1.twb – Tableau Workbook
+
+README.md – Project documentation
