@@ -32,7 +32,7 @@ Shows the count of customers who churned vs retained
 
 Helps understand overall churn rate
 
-2️⃣ Churn by Tenure Bin (Stacked Bar Chart)
+2️⃣ Churn by Tenure Bin 
 
 Displays churn across different customer lifespan groups
 
